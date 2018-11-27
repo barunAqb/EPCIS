@@ -95,7 +95,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-10T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-01T23:01:45.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sscc:0346672.0000000010</epc>
@@ -143,7 +143,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-10T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-02T23:01:45.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sgtin:0369499.033060.100000000200</epc>
@@ -178,7 +178,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-10T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-03T23:01:45.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sgtin:0369499.033060.100000000250</epc>
@@ -226,7 +226,7 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-10T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-04T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000010</parentID>
         <childEPCs>
@@ -248,7 +248,7 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-10T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-05T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000010</parentID>
         <childEPCs>
@@ -273,7 +273,7 @@
 
 
       <ObjectEvent>
-        <eventTime>2018-01-11T03:16:16.000Z</eventTime>
+        <eventTime>2018-01-06T03:16:16.000Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sscc:0346672.0000000010</epc>
@@ -312,7 +312,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-10T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-07T23:01:45.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sscc:0346672.0000000111</epc>
@@ -352,7 +352,7 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-10T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-08T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000010</parentID>
         <childEPCs>
@@ -376,7 +376,7 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-10T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-09T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000111</parentID>
         <childEPCs>
@@ -402,18 +402,18 @@
 
 
 
-			<ObjectEvent>
-				<eventTime>2016-05-02T14:58:56.591Z</eventTime>
-				<eventTimeZoneOffset>+02:00</eventTimeZoneOffset>
-				<epcList>
-					<epc>urn:epc:id:sscc:0346672.0000000010</epc>
-				</epcList>
-				<action>DELETE</action>
-				<bizStep>urn:epcglobal:cbv:bizstep:destroying</bizStep>
-				<readPoint>
-					<id>urn:epc:id:sgln:4054738.99901.1</id>
-				</readPoint>
-			</ObjectEvent>
+	<ObjectEvent>
+		<eventTime>2016-05-10T14:58:56.591Z</eventTime>
+		<eventTimeZoneOffset>+02:00</eventTimeZoneOffset>
+		<epcList>
+			<epc>urn:epc:id:sscc:0346672.0000000010</epc>
+		</epcList>
+		<action>DELETE</action>
+		<bizStep>urn:epcglobal:cbv:bizstep:destroying</bizStep>
+		<readPoint>
+			<id>urn:epc:id:sgln:4054738.99901.1</id>
+		</readPoint>
+	</ObjectEvent>
 
 
     </EventList>
