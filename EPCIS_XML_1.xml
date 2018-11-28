@@ -403,7 +403,7 @@
 
 
 	<ObjectEvent>
-		<eventTime>2016-05-10T14:58:56.591Z</eventTime>
+		<eventTime>2018-01-12T14:23:45.335Z</eventTime>
 		<eventTimeZoneOffset>+02:00</eventTimeZoneOffset>
 		<epcList>
 			<epc>urn:epc:id:sscc:0346672.0000000010</epc>
@@ -414,6 +414,42 @@
 			<id>urn:epc:id:sgln:4054738.99901.1</id>
 		</readPoint>
 	</ObjectEvent>
+
+ <ObjectEvent>
+  <eventTime>2018-01-06T03:16:16.000Z</eventTime>
+  <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+  <epcList>
+    <epc>urn:epc:id:sscc:0346672.0000000010</epc>
+  </epcList>
+  <action>OBSERVE</action>
+  <bizStep>urn:epcglobal:cbv:bizstep:shipping</bizStep>
+  <disposition>urn:epcglobal:cbv:disp:in_transit</disposition>
+  <readPoint>
+    <id>urn:epc:id:sgln:0764973.00000.1</id>
+  </readPoint>
+  <bizTransactionList>
+    <bizTransaction type="urn:epcglobal:cbv:btt:po">urn:epcglobal:cbv:bt:0369499000008:UAT10</bizTransaction>
+    <bizTransaction type="urn:epcglobal:cbv:btt:desadv">urn:epcglobal:cbv:bt:0764973000008:SOLUAT10</bizTransaction>
+  </bizTransactionList>
+  <extension>
+    <sourceList>
+      <source type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:sgln:0764973.00000.0</source>
+      <source type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0764973.00000.1</source>
+    </sourceList>
+    <destinationList>
+      <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:gln:0369499000008</destination>
+      <destination type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0369499.00000.1</destination>
+    </destinationList>
+  </extension>
+  <tl:shippingEventExtensions>
+    <tl:transactionDate>2018-01-11</tl:transactionDate>
+    <tl:shipToCountryCode>US</tl:shipToCountryCode>
+    <tl:shipFromCountryCode>US</tl:shipFromCountryCode>
+    <tl:salesDistributionType>INCOUNTRYTRANSFER</tl:salesDistributionType>
+    <tl:dropShipmentIndicator>false</tl:dropShipmentIndicator>
+    <tl:warehouseOperatorName>Henry Jones</tl:warehouseOperatorName>
+  </tl:shippingEventExtensions>
+</ObjectEvent>
 
 
     </EventList>
