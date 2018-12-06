@@ -216,7 +216,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-03T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-03T23:02:45.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sgtin:0369499.033060.100000000300</epc>
@@ -254,6 +254,42 @@
 
 
 
+<ObjectEvent>
+        <eventTime>2018-01-03T23:02:45.050Z</eventTime>
+        <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+        <epcList>
+          <epc>urn:epc:id:sgtin:0369499.033060.100000000250_A</epc>
+        </epcList>
+        <action>ADD</action>
+        <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+        <disposition>urn:epcglobal:cbv:disp:active</disposition>
+        <readPoint>
+          <id>urn:epc:id:sgln:0764973.00000.1</id>
+        </readPoint>
+        <bizLocation>
+          <id>urn:epc:id:sgln:0764973.00000.1</id>
+        </bizLocation>
+        <extension>
+          <ilmd>
+            <cbvmda:lotNumber>LOT_PROD_1</cbvmda:lotNumber>
+            <cbvmda:itemExpirationDate>2018-01-31</cbvmda:itemExpirationDate>
+            <tl:commissionEventExtensions>
+              <tl:packagingLevel>EA</tl:packagingLevel>
+              <tl:epcAttributes epc="urn:epc:id:sgtin:0369499.033060.100000000004">
+                <tl:barcodeContent>(01)00369499330600(21)100000000004</tl:barcodeContent>
+              </tl:epcAttributes>
+              <tl:plantLocationId>0764973.00000.1</tl:plantLocationId>
+              <tl:productionLineId>LINE 5</tl:productionLineId>
+              <tl:internalMaterialCode>69499-329-15</tl:internalMaterialCode>
+              <tl:packagingItemCode type="GTIN-14">00369499330600</tl:packagingItemCode>
+              <tl:countryDrugCode type="US_NDC532">69499-329-15</tl:countryDrugCode>
+            </tl:commissionEventExtensions>
+          </ilmd>
+        </extension>
+      </ObjectEvent>
+
+
+
 
 
 
@@ -283,7 +319,7 @@
       <AggregationEvent>
         <eventTime>2018-01-05T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
-        <parentID>urn:epc:id:sscc:0346672.100000000250</parentID>
+        <parentID>urn:epc:id:sgtin:0369499.033060.100000000250</parentID>
         <childEPCs>
           <epc>urn:epc:id:sgtin:0369499.033060.100000000250_A</epc>
         </childEPCs>
@@ -303,7 +339,7 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-05T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-05T23:10:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000010</parentID>
         <childEPCs>
@@ -406,7 +442,7 @@
 
 
 <ObjectEvent>
-        <eventTime>2018-01-07T23:01:45.050Z</eventTime>
+        <eventTime>2018-01-07T23:01:55.050Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <epcList>
           <epc>urn:epc:id:sscc:0346672.0000000222</epc>
@@ -438,6 +474,52 @@
           </ilmd>
         </extension>
 </ObjectEvent>
+
+
+
+
+
+
+
+
+<ObjectEvent>
+        <eventTime>2018-01-07T23:01:57.050Z</eventTime>
+        <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
+        <epcList>
+          <epc>urn:epc:id:sgtin:0369499.033060.100000000200</epc>
+        </epcList>
+        <action>ADD</action>
+        <bizStep>urn:epcglobal:cbv:bizstep:commissioning</bizStep>
+        <disposition>urn:epcglobal:cbv:disp:active</disposition>
+        <readPoint>
+          <id>urn:epc:id:sgln:0764973.00000.1</id>
+        </readPoint>
+        <bizLocation>
+          <id>urn:epc:id:sgln:0764973.00000.1</id>
+        </bizLocation>
+        <extension>
+          <ilmd>
+            <cbvmda:lotNumber>LOT_PROD_1</cbvmda:lotNumber>
+            <cbvmda:itemExpirationDate>2018-01-31</cbvmda:itemExpirationDate>
+            <tl:commissionEventExtensions>
+              <tl:packagingLevel>EA</tl:packagingLevel>
+              <tl:epcAttributes epc="urn:epc:id:sgtin:0369499.033060.100000000004">
+                <tl:barcodeContent>(01)00369499330600(21)100000000004</tl:barcodeContent>
+              </tl:epcAttributes>
+              <tl:plantLocationId>0764973.00000.1</tl:plantLocationId>
+              <tl:productionLineId>LINE 5</tl:productionLineId>
+              <tl:internalMaterialCode>69499-329-15</tl:internalMaterialCode>
+              <tl:packagingItemCode type="GTIN-14">00369499330600</tl:packagingItemCode>
+              <tl:countryDrugCode type="US_NDC532">69499-329-15</tl:countryDrugCode>
+            </tl:commissionEventExtensions>
+          </ilmd>
+        </extension>
+</ObjectEvent>
+
+
+
+
+
 
 
 
@@ -494,21 +576,23 @@
 
 
 
-	<ObjectEvent>
-		<eventTime>2018-01-12T14:23:45.335Z</eventTime>
-		<eventTimeZoneOffset>+02:00</eventTimeZoneOffset>
-		<epcList>
-			<epc>urn:epc:id:sscc:0346672.0000000010</epc>
-		</epcList>
-		<action>DELETE</action>
-		<bizStep>urn:epcglobal:cbv:bizstep:destroying</bizStep>
-		<readPoint>
-			<id>urn:epc:id:sgln:4054738.99901.1</id>
-		</readPoint>
-	</ObjectEvent>
+<ObjectEvent>
+	<eventTime>2018-01-12T14:23:45.335Z</eventTime>
+	<eventTimeZoneOffset>+02:00</eventTimeZoneOffset>
+	<epcList>
+		<epc>urn:epc:id:sscc:0346672.0000000010</epc>
+	</epcList>
+	<action>DELETE</action>
+	<bizStep>urn:epcglobal:cbv:bizstep:destroying</bizStep>
+	<readPoint>
+		<id>urn:epc:id:sgln:4054738.99901.1</id>
+	</readPoint>
+</ObjectEvent>
+
+
 
  <ObjectEvent>
-  <eventTime>2018-01-06T03:16:16.000Z</eventTime>
+  <eventTime>2018-01-13T03:16:16.000Z</eventTime>
   <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
   <epcList>
     <epc>urn:epc:id:sscc:0346672.0000000111</epc>
@@ -547,11 +631,12 @@
 
 
       <AggregationEvent>
-        <eventTime>2018-01-09T23:09:48.444Z</eventTime>
+        <eventTime>2018-01-14T23:09:48.444Z</eventTime>
         <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
         <parentID>urn:epc:id:sscc:0346672.0000000222</parentID>
         <childEPCs>
           <epc>urn:epc:id:sgtin:0369499.033060.100000000300</epc>
+	  <epc>urn:epc:id:sgtin:0369499.033060.100000000333</epc>
         </childEPCs>
         <action>ADD</action>
         <bizStep>urn:epcglobal:cbv:bizstep:packing</bizStep>
@@ -571,7 +656,7 @@
 
 
  <ObjectEvent>
-  <eventTime>2018-01-06T03:16:16.000Z</eventTime>
+  <eventTime>2018-01-15T03:16:16.000Z</eventTime>
   <eventTimeZoneOffset>+00:00</eventTimeZoneOffset>
   <epcList>
     <epc>urn:epc:id:sscc:0346672.0000000222</epc>
