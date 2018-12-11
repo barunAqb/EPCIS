@@ -604,8 +604,8 @@
     <id>urn:epc:id:sgln:0764973.00000.1</id>
   </readPoint>
   <bizTransactionList>
-    <bizTransaction type="urn:epcglobal:cbv:btt:po">urn:epcglobal:cbv:bt:0369499000008:UAT10</bizTransaction>
-    <bizTransaction type="urn:epcglobal:cbv:btt:desadv">urn:epcglobal:cbv:bt:0764973000008:SOLUAT10</bizTransaction>
+    <bizTransaction type="urn:epcglobal:cbv:btt:po">urn:epcglobal:cbv:bt:0369499000008:UAT100</bizTransaction>
+    <bizTransaction type="urn:epcglobal:cbv:btt:desadv">urn:epcglobal:cbv:bt:0764973000008:SOLUAT100</bizTransaction>
   </bizTransactionList>
   <extension>
     <sourceList>
@@ -613,7 +613,7 @@
       <source type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0764973.00000.1</source>
     </sourceList>
     <destinationList>
-      <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:gln:0369499000008</destination>
+      <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:gln:0369499000013</destination>
       <destination type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0369499.00000.1</destination>
     </destinationList>
   </extension>
@@ -668,8 +668,8 @@
     <id>urn:epc:id:sgln:0764973.00000.1</id>
   </readPoint>
   <bizTransactionList>
-    <bizTransaction type="urn:epcglobal:cbv:btt:po">urn:epcglobal:cbv:bt:0369499000008:UAT10</bizTransaction>
-    <bizTransaction type="urn:epcglobal:cbv:btt:desadv">urn:epcglobal:cbv:bt:0764973000008:SOLUAT10</bizTransaction>
+    <bizTransaction type="urn:epcglobal:cbv:btt:po">urn:epcglobal:cbv:bt:0369499000008:UAT1000</bizTransaction>
+    <bizTransaction type="urn:epcglobal:cbv:btt:desadv">urn:epcglobal:cbv:bt:0764973000008:SOLUAT1000</bizTransaction>
   </bizTransactionList>
   <extension>
     <sourceList>
@@ -677,7 +677,7 @@
       <source type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0764973.00000.1</source>
     </sourceList>
     <destinationList>
-      <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:gln:0369499000008</destination>
+      <destination type="urn:epcglobal:cbv:sdt:owning_party">urn:epc:id:gln:88888122222</destination>
       <destination type="urn:epcglobal:cbv:sdt:location">urn:epc:id:sgln:0369499.00000.1</destination>
     </destinationList>
   </extension>
